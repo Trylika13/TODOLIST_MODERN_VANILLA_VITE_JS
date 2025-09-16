@@ -1,9 +1,9 @@
 import "./styles.css";
 import TodoList from "./components/todoList/TodoList";
 
-new TodoList({
+window.todoList = new TodoList({
   elt: "#app",
-  apiURL: "https://68ad9556a0b85b2f2cf3e1b0.mockapi.io/",
+  apiURL: "https://68ad9558a0b85b2f2cf3e228.mockapi.io/",
 });
 
 /*  1. structure: 3 class et 2 fcts
