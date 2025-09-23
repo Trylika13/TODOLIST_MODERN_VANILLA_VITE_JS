@@ -25,7 +25,7 @@ export default function (todoList) {
       </main>
       <footer class="footer">
         <span class="todo-count" role="todo-count">
-        <span>${todoList.getItemsLeftCount()}</span>  item(s) left
+        <span>${todoList.getItemsLeftCount()}</span>  todo(s) left
         </span>
         <ul class="filters">
           <li><a href="#/" class="selected">All</a></li>
